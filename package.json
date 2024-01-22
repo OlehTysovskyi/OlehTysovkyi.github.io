@@ -1,7 +1,7 @@
 {
   "name": "monuments",
   "version": "0.1.0",
-  "homepage": "https://olehtysovskyi.github.io/OlehTysovkyi.github.io/",
+  "homepage": "https://olehtysovskyi.github.io/monuments/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
