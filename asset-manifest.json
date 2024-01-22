@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OlehTysovskyi.github.io/static/css/main.5cde9419.css",
-    "main.js": "/OlehTysovskyi.github.io/static/js/main.fe908f7f.js",
+    "main.js": "/OlehTysovskyi.github.io/static/js/main.e9e8f16c.js",
     "static/js/787.f8b5f1c2.chunk.js": "/OlehTysovskyi.github.io/static/js/787.f8b5f1c2.chunk.js",
     "index.html": "/OlehTysovskyi.github.io/index.html",
     "main.5cde9419.css.map": "/OlehTysovskyi.github.io/static/css/main.5cde9419.css.map",
-    "main.fe908f7f.js.map": "/OlehTysovskyi.github.io/static/js/main.fe908f7f.js.map",
+    "main.e9e8f16c.js.map": "/OlehTysovskyi.github.io/static/js/main.e9e8f16c.js.map",
     "787.f8b5f1c2.chunk.js.map": "/OlehTysovskyi.github.io/static/js/787.f8b5f1c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cde9419.css",
-    "static/js/main.fe908f7f.js"
+    "static/js/main.e9e8f16c.js"
   ]
 }
