@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OlehTysovkyi.github.io/static/css/main.5cde9419.css",
-    "main.js": "/OlehTysovkyi.github.io/static/js/main.9d625ff3.js",
-    "static/js/787.f8b5f1c2.chunk.js": "/OlehTysovkyi.github.io/static/js/787.f8b5f1c2.chunk.js",
-    "index.html": "/OlehTysovkyi.github.io/index.html",
-    "main.5cde9419.css.map": "/OlehTysovkyi.github.io/static/css/main.5cde9419.css.map",
-    "main.9d625ff3.js.map": "/OlehTysovkyi.github.io/static/js/main.9d625ff3.js.map",
-    "787.f8b5f1c2.chunk.js.map": "/OlehTysovkyi.github.io/static/js/787.f8b5f1c2.chunk.js.map"
+    "main.css": "/monuments/static/css/main.5cde9419.css",
+    "main.js": "/monuments/static/js/main.2fa69912.js",
+    "static/js/787.f8b5f1c2.chunk.js": "/monuments/static/js/787.f8b5f1c2.chunk.js",
+    "index.html": "/monuments/index.html",
+    "main.5cde9419.css.map": "/monuments/static/css/main.5cde9419.css.map",
+    "main.2fa69912.js.map": "/monuments/static/js/main.2fa69912.js.map",
+    "787.f8b5f1c2.chunk.js.map": "/monuments/static/js/787.f8b5f1c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cde9419.css",
-    "static/js/main.9d625ff3.js"
+    "static/js/main.2fa69912.js"
   ]
 }
