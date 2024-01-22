@@ -1,0 +1,205 @@
+
+/* ---------------------------------------- Header ---------------------------------------- */
+
+header {
+    width: 100%;
+    height: 80px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* ---------------------------------------- Main ---------------------------------------- */
+
+
+.main-container {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ---------------------------------------- Navbar ---------------------------------------- */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    z-index: 1001;
+    background-color: white;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-icon {
+    transition: transform 25ms ease-in-out;
+}
+
+.nav-icon:hover {
+    transform: scale(1.2);
+}
+
+.nav-icon:active {
+    transform: scale(1);
+}
+
+/* ---------------------------------------- Menu ---------------------------------------- */
+
+.menu {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* ---------------------------------------- Catalog-Link ---------------------------------------- */
+
+.catalog-cover {
+    width: 85%;
+    height: auto;
+    margin: 0 auto 20px;
+    padding: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.catalog-cover:hover {
+    transform: scale(1.01);
+}
+
+.catalog-cover-img {
+    width: 100%;
+}
+
+.catalog-cover-text {
+    width: 90%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.9) 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease;
+}
+
+.catalog-cover:hover .catalog-cover-text {
+    background-position: -100% 0;
+}
+
+/* ---------------------------------------- Catalog ---------------------------------------- */
+
+.catalog-item {
+    width: 85%;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.catalog-item:hover {
+    scale: 1.01;
+}
+
+.catalog-item-img {
+    width: 100%;
+    height: auto;
+}
+
+.catalog-item-fig {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-item-name {
+    margin: 2% 0;
+}
+
+.catalog-item-price {
+    margin: 2% 0;
+    text-transform: lowercase;
+    color: rgb(52, 116, 212);
+}
+
+.catalog-item-btn {
+    width: 100%;
+    height: 4vh;
+    margin: 2% 0;
+    background-color: rgb(52, 116, 212);
+    color: white;
+    font-weight: 500;
+    border: 0;
+}
+
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fullscreen-image-container {
+    max-width: 95%;
+  }
+  
+  .fullscreen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+/* ---------------------------------------- Location ---------------------------------------- */
+
+.location-header {
+    font-size: 28px;
+}
+
+.location-map {
+    width: 90%;
+    height: 40vh;
+}
+
+
+
+
+  
