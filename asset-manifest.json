@@ -1,15 +1,26 @@
 {
   "files": {
     "main.css": "/monuments/static/css/main.5cde9419.css",
-    "main.js": "/monuments/static/js/main.2fa69912.js",
+    "main.js": "/monuments/static/js/main.489ebafa.js",
     "static/js/787.f8b5f1c2.chunk.js": "/monuments/static/js/787.f8b5f1c2.chunk.js",
+    "static/media/5.jpg": "/monuments/static/media/5.144d1d5cd0d7a3ca0ee6.jpg",
+    "static/media/2.jpg": "/monuments/static/media/2.ebde22fd704531a93506.jpg",
+    "static/media/3.jpg": "/monuments/static/media/3.b2963dbdfe367171b11b.jpg",
+    "static/media/double-monument.jpg": "/monuments/static/media/double-monument.ef2a0bf85beccc02365d.jpg",
+    "static/media/6.jpg": "/monuments/static/media/6.289ba7f43011bac48e38.jpg",
+    "static/media/single-monument.jpg": "/monuments/static/media/single-monument.5b6279d99e5eb95411b1.jpg",
+    "static/media/1.jpg": "/monuments/static/media/1.d173e7068e39be09244b.jpg",
+    "static/media/location.png": "/monuments/static/media/location.956ffc761c02be4a5373.png",
+    "static/media/4.jpg": "/monuments/static/media/4.a0993c0fd9782601bc5d.jpg",
+    "static/media/logo.png": "/monuments/static/media/logo.cec91c54c698110dd6a1.png",
+    "static/media/phone.png": "/monuments/static/media/phone.d35848942c955a6232b3.png",
     "index.html": "/monuments/index.html",
     "main.5cde9419.css.map": "/monuments/static/css/main.5cde9419.css.map",
-    "main.2fa69912.js.map": "/monuments/static/js/main.2fa69912.js.map",
+    "main.489ebafa.js.map": "/monuments/static/js/main.489ebafa.js.map",
     "787.f8b5f1c2.chunk.js.map": "/monuments/static/js/787.f8b5f1c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cde9419.css",
-    "static/js/main.2fa69912.js"
+    "static/js/main.489ebafa.js"
   ]
 }
