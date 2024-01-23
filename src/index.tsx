@@ -1,15 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
-import "./styles/reset.css"
-import "./styles/fonts.css"
-import "./styles/styles.css"
-import reportWebVitals from './reportWebVitals';
-import Navigation from './components/Navigation';
+import "./styles/reset.css";
+import "./styles/fonts.css";
+import "./styles/styles.css";
+import reportWebVitals from "./reportWebVitals";
+import Navigation from "./components/Navigation";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>

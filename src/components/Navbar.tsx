@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import menu from '../assets/images/menu.png'
+import close from '../assets/images/close.png'
+import home from '../assets/images/home.png'
+import location from '../assets/images/location.png'
+import phone from '../assets/images/phone.png'
+
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -25,21 +31,21 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <img
           className="nav-icon"
-          src={isMenuOpen ? 'close.png' : 'menu.png'}
+          src={isMenuOpen ? close : menu}
           width="27px"
           title={isMenuOpen ? 'Закрити' : 'Меню'}
           alt={isMenuOpen ? 'Закрити' : 'Меню'}
           onClick={toggleMenu}
         />
         <NavLink key="home" to="/">
-          <img className="nav-icon" src="home.png" width="30px" title="Головна" alt="Головна" />
+          <img className="nav-icon" src={home} width="30px" title="Головна" alt="Головна" />
         </NavLink>
         <NavLink key="location" to="/location">
-          <img className="nav-icon" src="location.png" width="42px" title="Локація" alt="Локація" />
+          <img className="nav-icon" src={location} width="42px" title="Локація" alt="Локація" />
         </NavLink>
         <img
           className="nav-icon"
-          src="phone.png"
+          src={phone}
           width="30px"
           title="Телефон"
           alt="Телефон"
