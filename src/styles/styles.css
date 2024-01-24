@@ -30,7 +30,7 @@ header {
 
 .navbar {
     width: 100%;
-    height: 80px;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -41,15 +41,15 @@ header {
 }
 
 .nav-icon {
-    transition: transform 25ms ease-in-out;
+    transition: transform 0.25s ease-in-out;
 }
 
-.nav-icon:hover {
+/* .nav-icon:hover {
     transform: scale(1.2);
-}
+} */
 
 .nav-icon:active {
-    transform: scale(1);
+    transform: scale(0.7);
 }
 
 /* ---------------------------------------- Menu ---------------------------------------- */
@@ -71,6 +71,61 @@ header {
 .visible {
     display: block;
 }
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: none;
+  }
+  
+  .menu-overlay.visible {
+    display: block;
+  }
+  
+  .off-canvas-menu {
+    position: fixed;
+    top: 0;
+    left: -70%;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    z-index: 3;
+    overflow-y: auto;
+  }
+  
+  .off-canvas-menu.open {
+    left: 0;
+  }
+  
+  .off-canvas-menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .off-canvas-menu li {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .off-canvas-menu li:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-open {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+  }  
 
 /* ---------------------------------------- Catalog-Link ---------------------------------------- */
 
