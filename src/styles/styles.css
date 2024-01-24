@@ -241,8 +241,9 @@ header {
     align-items: center;
     top: 1vh;
     right: 1vh;
+    background-color: white;
     border: none;
-    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .fullscreen-overlay {
