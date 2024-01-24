@@ -30,21 +30,21 @@ const Navbar = () => {
 
   const phoneNumber = '+380989684475';
 
-  useEffect(() => {
-    const handleClickOutsideMenu = (event: MouseEvent) => {
-      const navbarElement = document.querySelector('.navbar');
+  // useEffect(() => {
+  //   const handleClickOutsideMenu = (event: MouseEvent) => {
+  //     const navbarElement = document.querySelector('.navbar');
 
-      if (menuIsOpen && navbarElement && !navbarElement.contains(event.target as Node)) {
-        toggleMenu();
-      }
-    };
+  //     if (menuIsOpen && navbarElement && !navbarElement.contains(event.target as Node)) {
+  //       toggleMenu();
+  //     }
+  //   };
 
-    document.addEventListener('click', handleClickOutsideMenu);
+  //   document.addEventListener('click', handleClickOutsideMenu);
 
-    return () => {
-      document.removeEventListener('click', handleClickOutsideMenu);
-    };
-  }, [menuIsOpen]);
+  //   return () => {
+  //     document.removeEventListener('click', handleClickOutsideMenu);
+  //   };
+  // }, [menuIsOpen]);
 
   return (
     <>
@@ -74,7 +74,7 @@ const Navbar = () => {
       </nav>
 
       <div className={`menu-overlay ${menuIsOpen ? 'visible' : 'hidden'}`} onClick={toggleMenu}></div>
-      <div className={`off-canvas-menu ${menuIsOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <div className={`off-canvas-menu ${menuIsOpen ? 'open' : ''}`}>
         <ul>
           <li>Пункт 1</li>
           <li>Пункт 2</li>

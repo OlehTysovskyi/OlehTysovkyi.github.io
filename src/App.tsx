@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Header>
-        <NavLink key="home" to="/">
-          <img src={logo} width={"280px"} alt="ПАМ'ЯТНИК" />
+        <NavLink className="header-link" key="home" to="/">
+          <img className="header-img" src={logo} title="Головна" alt="ПАМ'ЯТНИК" />
         </NavLink>
       </Header>
       <main className="main-container">
