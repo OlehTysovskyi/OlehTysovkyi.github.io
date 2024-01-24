@@ -3,7 +3,7 @@
 
 header {
     width: 100%;
-    height: 80px;
+    height: 8vh;
     margin: 0 0 20px 0;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ header {
 }
 
 .nav-icon {
-    transition: transform 0.25s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 /* .nav-icon:hover {
@@ -127,7 +127,7 @@ header {
     overflow: hidden;
   }  
 
-/* ---------------------------------------- Catalog-Link ---------------------------------------- */
+/* ---------------------------------------- Catalog-Cover ---------------------------------------- */
 
 .catalog-cover {
     width: 85%;
@@ -211,7 +211,7 @@ header {
     color: rgb(52, 116, 212);
 }
 
-.catalog-item-btn {
+.catalog-item-btn-view {
     width: 100%;
     height: 4vh;
     margin: 2% 0;
@@ -219,6 +219,19 @@ header {
     color: white;
     font-weight: 500;
     border: 0;
+}
+
+.catalog-item-btn-close {
+    position: absolute;
+    width: 4.5vh;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1vh;
+    right: 1vh;
+    border: none;
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.7);
 }
 
 .fullscreen-overlay {
