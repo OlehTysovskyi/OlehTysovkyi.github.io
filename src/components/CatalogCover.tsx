@@ -1,16 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
-interface Props {
+interface CatalogCoverProps {
   image_url: string;
-    text: string;
+  coverName: string;
 }
 
-const CatalogCover = ({ image_url, text }: Props) => {
+const CatalogCover: React.FC<CatalogCoverProps> = ({ image_url, coverName }) => {
   return (
     <figure className='catalog-cover'>
       <img className="catalog-cover-img" src={image_url} alt="" />
       <figcaption className='catalog-cover-text'>
-        {text}
+        {coverName}
       </figcaption>
     </figure>
   )

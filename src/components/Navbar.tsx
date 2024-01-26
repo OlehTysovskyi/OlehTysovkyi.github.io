@@ -5,6 +5,8 @@ import closeIcon from "../assets/images/close.png";
 import homeIcon from "../assets/images/home.png";
 import locationIcon from "../assets/images/location.png";
 import phoneIcon from "../assets/images/phone.png";
+import { callPhoneNumber } from '../utils.js'; 
+
 
 const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -16,19 +18,6 @@ const Navbar = () => {
   const closeMenu = () => {
     setMenuIsOpen(false);
   };
-
-  const callPhoneNumber = (phoneNumber: string) => {
-    closeMenu();
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-    if (isMobile) {
-      window.location.href = "tel:" + phoneNumber;
-    } else {
-      alert("Дзвінки не підтримуються на цьому пристрої.");
-    }
-  };
-
-  const phoneNumber = "+380989684475";
 
   // useEffect(() => {
   //   const handleClickOutsideMenu = (event: MouseEvent) => {
@@ -90,7 +79,7 @@ const Navbar = () => {
             width="30px"
             title="Телефон"
             alt="Телефон"
-            onClick={() => callPhoneNumber(phoneNumber)}
+            onClick={() => {closeMenu(); callPhoneNumber();}}
           />
         </button>
       </nav>
@@ -103,9 +92,9 @@ const Navbar = () => {
         <div className="menu-header">Меню</div>
         <div className="menu-body">
           <ul>
-            <li>Одинарні пам'ятники</li>
-            <li>Подвійні пам'ятники</li>
-            <li>Акційні пам'ятникиі</li>
+            <NavLink to="/single-catalog" onClick={closeMenu}><li>Одинарні пам'ятники</li></NavLink>
+            <NavLink to="/double-catalog" onClick={closeMenu}><li>Подвійні пам'ятники</li></NavLink>
+            <NavLink to="/sales-catalog" onClick={closeMenu}><li>Акційні пам'ятники</li></NavLink>
             <li>Політика конфеденційності</li>
             <li>Оплата та доставка</li>
             <li>Гарантія та обмін</li>

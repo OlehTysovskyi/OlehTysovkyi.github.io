@@ -12,7 +12,9 @@ const Navigation = () => {
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="/location" element={<Location />} />
-          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/single-catalog" element={<Catalog />} />
+          <Route path="/double-catalog" element={<Catalog />} />
+          <Route path="/sales-catalog" element={<Catalog />} />
         </Route>
       </Routes>
     </Router>

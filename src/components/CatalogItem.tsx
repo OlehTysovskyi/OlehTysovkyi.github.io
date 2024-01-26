@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import closeIcon from '../assets/images/close.png';
 
-interface Props {
+interface CatalogItemProps {
     image_url: string;
     name: string;
     price: string;
 }
 
-const CatalogItem = ({ image_url, name, price }: Props) => {
+const CatalogItem: React.FC<CatalogItemProps> = ({ image_url, name, price }) => {
   const [isImageOpen, setImageOpen] = useState(false);
 
   const openImage = () => {
